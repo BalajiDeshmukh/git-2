@@ -1,14 +1,16 @@
-let number=3;
-let factor=0;
-for(let i=0; i<N; i++){
-if(3%i==0){
-factor++;
+let a=10;
+
+if(a<2){
+  console.log("Not a Prime Number" );
 }
-}
-if(factor==0){
-console.log("number is prime");
-}
-else{
-console.log("number is not a prime");
-}
+  for (let i=2; i<a;i++){
+    if(a%i===0){
+      console.log("Not a prime Number")
+      break;
+    }else{
+      console.log("Prime number")
+      break;
+    }
+  }
+
 
